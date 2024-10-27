@@ -1,0 +1,73 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <title>Netflix Clone</title>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward_ios" />
+            <link href="./Home-top.css" rel="stylesheet">
+
+        </head>
+        <body>
+            
+            <div class="nav-bar">
+            <div class="nav-left"> <img src="./Images/Netflix  Logo.png" class="logo" alt="NETFLIX Logo"></div>
+            
+            <div class="nav-right"> 
+                <select class="language"> 
+                    <option label="English" value="English">English</option>
+                    <option label="தமிழ்" value="Tamil">தமிழ்</option>
+                </select>
+                <button id="sign-in-button"><a id="sign-in" role="button" href="./Sign-in-page.html">Sign In</a>  </button>
+            </div>
+            </div>
+
+            <div class="top-page">
+            <div class="tagline">
+
+            <h1>Unlimited Movies, TV Shows and more...</h1>
+            <h3>Starts at ₹149. Cancel at any time.</h3>
+            <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+
+            <div class="home">
+            <div class="home-buttons"> <input autocomplete="email" minlength="5" maxlength="50" type="email" id="email" name="email" data-uia="field-email" value="" data-autofill="true" placeholder="Email Address"></div>
+            <div class="home-buttons"> <button type="button" id="button"> Get Started</button>
+                                        
+            </div>
+            </div>
+            
+            </div>
+            </div>
+
+            <div class="list">
+                <h2 class="trend">Trending Now</h2>
+
+                <select id="country">
+                    <option label="INDIA" value="INDIA"></option>
+                    <option label="GLOBAL" value="GLOBAL"></option>
+                </select>
+                <select id="movies">
+                    <option label="MOVIES" value="MOVIES"></option>
+                    <option label="TV SHOWS" value="TV SHOWS"></option>
+                </select>
+
+                <div class="posters">
+                    <img id="top1" src="./Images/Top 1.jpeg">
+                    <img id="top2" src="./Images/Top 2.jpeg" >
+                    <img id="top3" src="./Images/Top3.jpeg" >
+                    <img id="top4" src="./Images/Top4.jpeg" >
+                    <img id="top5" src="./Images/Top5.jpeg" >
+                    <img id="top6" src="./Images/Top6.jpeg" >
+                    <!-- <img id="top7" src="./Images/Top7.jpeg" >
+                    <img id="top8" src="./Images/Top8.jpeg" >
+                    <img id="top9" src="./Images/Top9.jpeg" >
+                    <img id="top10" src="./Images/Top10.jpeg" > -->
+
+                </div>
+            </div>
+
+        </body>
+        </html>
